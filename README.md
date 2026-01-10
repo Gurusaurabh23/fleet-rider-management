@@ -2,7 +2,7 @@
 
 A full-stack delivery fleet operations platform for managing rider onboarding, shift workflows, real-time GPS tracking, performance analytics, and payroll calculations.
 
-🔗 **Live Demo:** https://fleetrides.club
+🔗 **Live Demo:** https://fleetride.club
 
 ---
 
