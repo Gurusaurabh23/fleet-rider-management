@@ -57,7 +57,7 @@ app.add_middleware(
 )
 
 # -------------------------------
-# Routers (CLEAN & FIXED)
+# Routers 
 # -------------------------------
 app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 
@@ -71,10 +71,10 @@ app.include_router(redzone.router, prefix="/admin/redzones", tags=["Admin - Redz
 app.include_router(admin_orders.router)
 
 
-# Rider (🔥 FIXED)
-app.include_router(riders.router, prefix="/riders", tags=["Riders"])        # /riders/stats/{login_id}
-app.include_router(riders_me.router, prefix="/riders", tags=["Riders"])     # /riders/me
-app.include_router(rider_shifts.router, prefix="/riders", tags=["Riders"])  # /riders/me/shifts
+# Rider 
+app.include_router(riders.router, prefix="/riders", tags=["Riders"])        
+app.include_router(riders_me.router, prefix="/riders", tags=["Riders"])   
+app.include_router(rider_shifts.router, prefix="/riders", tags=["Riders"])  
 
 # Shared
 app.include_router(tracking.router, prefix="/tracking", tags=["Tracking"])
